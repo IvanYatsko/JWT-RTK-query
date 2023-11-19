@@ -29,7 +29,9 @@ const PhotoGallery = () => {
     <div className="grid grid-cols-3 gap-2">
       {photos.map((item) => (
         <Image
+          className="object-cover"
           width={200}
+          height={"100%"}
           key={item.id}
           src={item.urls.regular}
           alt={item.alt_description}
