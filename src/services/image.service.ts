@@ -1,4 +1,4 @@
-import { ORDER_BY } from "../models/PhotoGallery";
+import { ORDER_BY } from "../models/PhotoGallery.model";
 
 const AUTHORIZATION_CLIENT_ID =
   "Client-ID RHdxfJjNNKmDgJdBBc1PL6oOoCMaZPVDvoHcbVm-tsg";
